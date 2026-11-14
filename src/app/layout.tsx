@@ -3,11 +3,7 @@ import { IBM_Plex_Sans_Arabic } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
-const siteUrl = "https://sakany.app";
-
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
-
   title: {
     default: "سكني | شريك سكنك مش مجرد اسم في قائمة",
     template: "%s | سكني",
@@ -46,7 +42,7 @@ export const metadata: Metadata = {
       "احكي مع مساعد سكني عن نمط حياتك، ونرشحلك زملاء سكن ومساكن قريبة من جامعتك بنسبة توافق مشروحة.",
     images: [
       {
-        url: "/og-image.png", // 1200x630
+        url: "/images/og-image.png",
         width: 1200,
         height: 630,
         alt: "سكني - منصة مطابقة زملاء السكن الجامعي",
@@ -59,7 +55,7 @@ export const metadata: Metadata = {
     title: "سكني | شريك سكنك مش مجرد اسم في قائمة",
     description:
       "لاقي زميل سكنك المناسب ومسكن قريب من جامعتك بنسبة توافق مشروحة.",
-    images: ["/og-image.png"],
+    images: ["/images/og-image.png"],
   },
 
   robots: {
@@ -74,8 +70,8 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: "/images/favicon.ico",
+    apple: "/images/apple-touch-icon.png",
   },
 
   category: "education",
