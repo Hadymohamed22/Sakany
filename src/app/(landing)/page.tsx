@@ -1,3 +1,10 @@
+import LandingHeroSection from "./_components/landing-hero-section";
+
 export default function Page() {
-  return <>Landing</>;
+  return (
+    <>
+      {/* Hero Section */}
+      <LandingHeroSection />
+    </>
+  );
 }

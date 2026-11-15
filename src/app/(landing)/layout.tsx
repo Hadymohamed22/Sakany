@@ -11,7 +11,7 @@ export default function LandingLayout({ children }: Props) {
       {/* Landing Page Header */}
       <LandingHeader />
 
-      {children}
+      <main>{children}</main>
 
       {/* Landing Page Footer */}
       <LandingFooter />
