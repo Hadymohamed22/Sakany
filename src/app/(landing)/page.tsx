@@ -1,3 +1,4 @@
+import PlatformAdvantage from "./_components/advantage/platform-advantage";
 import FeatureSection from "./_components/features/features-section";
 import LandingHeroSection from "./_components/hero/landing-hero-section";
 import PlatformSteps from "./_components/steps/platform-steps";
@@ -13,6 +14,9 @@ export default function Page() {
 
       {/* Platform Steps */}
       <PlatformSteps />
+
+      {/* Platform Advantage */}
+      <PlatformAdvantage />
     </>
   );
 }
