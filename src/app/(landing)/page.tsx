@@ -3,6 +3,7 @@ import FeatureSection from "./_components/features/features-section";
 import LandingHeroSection from "./_components/hero/landing-hero-section";
 import LocationSection from "./_components/location/location-section";
 import PlatformSteps from "./_components/steps/platform-steps";
+import SupportAreaSection from "./_components/support-area-section";
 import TrustSection from "./_components/trust/trust-section";
 
 export default function Page() {
@@ -25,6 +26,9 @@ export default function Page() {
 
       {/* Location Section */}
       <LocationSection />
+
+      {/* Platform Support Area Section */}
+      <SupportAreaSection />
     </>
   );
 }
