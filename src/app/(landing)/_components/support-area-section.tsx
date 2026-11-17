@@ -30,7 +30,7 @@ export default function SupportAreaSection() {
     },
   ];
   return (
-    <section className="py-18 md:py-20 text-center">
+    <section className="py-18 md:py-20 text-center px-5 md:px-0">
       {/* Header */}
       <SectionHeader
         title={
@@ -43,7 +43,7 @@ export default function SupportAreaSection() {
         subtitle="مين يستفيد؟"
         headerClassName="mb-0"
       />
-      <p className="text-sm text-[#6B7280] mt-4 mb-8">
+      <p className="text-xs md:text-sm text-[#6B7280] mt-4 mb-8">
         من أسيوط للقاهرة، ومن طنطا للإسكندرية؛ لِقاء أول سنة غربة مش لازم يكون
         مغامرة.
       </p>
@@ -56,7 +56,7 @@ export default function SupportAreaSection() {
         {countries.map(({ name, color }) => (
           <Badge
             key={name}
-            className={`h-6 min-w-22 md:h-10 md:min-w-26 justify-center rounded-full border px-6 py-3 text-xs md:text-base font-semibold shadow-none ${color}`}
+            className={`h-6 min-w-20 md:h-10 md:min-w-26 justify-center rounded-full border px-6 py-3 text-xs md:text-base font-semibold shadow-none ${color}`}
           >
             {name}
           </Badge>
