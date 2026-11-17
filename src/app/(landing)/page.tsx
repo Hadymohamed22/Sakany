@@ -2,6 +2,7 @@ import PlatformAdvantage from "./_components/advantage/platform-advantage";
 import FeatureSection from "./_components/features/features-section";
 import LandingHeroSection from "./_components/hero/landing-hero-section";
 import PlatformSteps from "./_components/steps/platform-steps";
+import TrustSection from "./_components/trust/trust-section";
 
 export default function Page() {
   return (
@@ -17,6 +18,9 @@ export default function Page() {
 
       {/* Platform Advantage */}
       <PlatformAdvantage />
+
+      {/* Trust Section */}
+      <TrustSection />
     </>
   );
 }
