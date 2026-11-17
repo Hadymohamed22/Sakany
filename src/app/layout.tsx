@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Sans_Arabic } from "next/font/google";
+import { IBM_Plex_Sans_Arabic, Lalezar } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
@@ -82,6 +82,11 @@ const IBM_plex_sans_arabic = IBM_Plex_Sans_Arabic({
   subsets: ["arabic"],
   variable: "--font-ibm-plex",
 });
+const oi = Lalezar({
+  weight: ["400"],
+  subsets: ["arabic"],
+  variable: "--font-lalezar",
+});
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -93,6 +98,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         "antialiased",
         IBM_plex_sans_arabic.variable,
         IBM_plex_sans_arabic.className,
+        oi.variable,
       )}
     >
       <body className="min-h-full">{children}</body>
