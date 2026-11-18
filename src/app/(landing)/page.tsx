@@ -1,5 +1,6 @@
 import PlatformAdvantage from "./_components/advantage/platform-advantage";
 import CTA from "./_components/cta";
+import FAQSection from "./_components/faq-section";
 import FeatureSection from "./_components/features/features-section";
 import LandingHeroSection from "./_components/hero/landing-hero-section";
 import LocationSection from "./_components/location/location-section";
@@ -30,6 +31,9 @@ export default function Page() {
 
       {/* Platform Support Area Section */}
       <SupportAreaSection />
+
+      {/* FAQ Section */}
+      <FAQSection />
 
       {/* CTA And Login */}
       <CTA />
