@@ -101,7 +101,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         oi.variable,
       )}
     >
-      <body className="min-h-full">{children}</body>
+      <body className="min-h-full bg-gray-50">{children}</body>
     </html>
   );
 }

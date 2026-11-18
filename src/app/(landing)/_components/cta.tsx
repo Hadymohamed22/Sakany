@@ -15,7 +15,7 @@ export default function CTA() {
 
         {/* Subtitle */}
         <p className="text-[#CCFBF1CC] text-xs md:text-sm mt-3">
-          ابدأ محادثتك الأولى النهاردة، الحساب مجاني.
+          ابدأ محادثتك الاولي الان، الحساب مجاني.
         </p>
 
         {/* Actions */}

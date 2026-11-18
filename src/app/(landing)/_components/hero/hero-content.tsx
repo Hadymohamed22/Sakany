@@ -29,9 +29,9 @@ export default function HeroContent() {
         <br />
         مجرد{" "}
         <span className="text-custom-primary border-dashed border-b-3 border-[#5EEAD4]">
-          اسم في قايمة
+          اسم في قائمة
         </span>
-        ، <br /> لازم تتفاهمو فعلا
+        ، <br /> لازم تتفاهموا فعلا
       </h1>
 
       {/* Subtitle */}
