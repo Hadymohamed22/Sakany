@@ -13,6 +13,10 @@ export default function PlatformAdvantage() {
     "بتحبوا البيت هادي وقت المذاكرة",
     "الاتنين غير مدخنين",
   ];
+  const warningParagraphs = [
+    "هو بيستقبل أصحابه كتير في الويك إند",
+    "أنت تفضل تقسيم أعمال النظافة بجدول",
+  ];
 
   return (
     <section className="w-full bg-[#f3f1ee] py-12 sm:py-14 lg:py-20">
@@ -70,7 +74,7 @@ export default function PlatformAdvantage() {
 
             {/* Paragraphs */}
             <div className="paragraphs space-y-1.5 ps-5 mt-3">
-              {compatibilityParagraphs.map((e, i) => (
+              {warningParagraphs.map((e, i) => (
                 <p
                   key={`${e}-${i}`}
                   className="font-xs md:text-sm text-[#4B5563] font-medium"
@@ -88,13 +92,13 @@ export default function PlatformAdvantage() {
           </span>
 
           <h2 className="text-[32px] font-bold text-slate-900 sm:text-[40px] lg:text-right lg:text-[48px]">
-            مش رقم و بس ،
+            مش مجرد رقم ،
             <br />
-            فاهمين{" "}
+            احنا بنفهم{" "}
             <span className="text-custom-primary border-dashed border-b-3 border-[#5EEAD4]">
-              ليه
+              اسباب
             </span>{" "}
-            متوافقين
+            التوافق
           </h2>
 
           <div className="space-y-6 mt-6 md:mt-8">
@@ -118,10 +122,11 @@ export default function PlatformAdvantage() {
               </div>
               <div className="text">
                 <h6 className="text-slate-900 font-bold text-sm">
-                  محادثة بدل الاستمارات
+                  توافق بكلام بسيط
                 </h6>
                 <p className="text-[#6B7280] text-xs mt-0.5">
-                  بتكلم المساعد زي ما بتكلم صاحبك، وهو بيفهم ويسجل.
+                  بنوضحلك الصفات المشتركة، ونقولك بصراحة إيه النقط اللي ممكن
+                  تعمل احتكاك.
                 </p>
               </div>
             </div>

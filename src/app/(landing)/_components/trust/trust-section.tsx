@@ -4,7 +4,7 @@ import SectionHeader from "../section-header";
 const trustFeatures = [
   {
     title: "توثيق بالإيميل والبطاقة الجامعية",
-    description: "كل حساب يتأكد منه بالإيميل الجامعة وصورة الكارنيه.",
+    description: "كل حساب يتأكد منه بالإيميل الجامعي وصورة الكارنيه.",
     icon: GraduationCap,
     iconClassName: "bg-teal-50 text-teal-700",
   },
@@ -15,7 +15,7 @@ const trustFeatures = [
     iconClassName: "bg-amber-50 text-amber-500",
   },
   {
-    title: "كشف الحسابات المشبوهة",
+    title: "اكتشاف الحسابات المشبوهة",
     description: "نظامنا يلاحظ السلوك الغريب ويراجعه قبل ما يوصلك.",
     icon: UserRoundCheck,
     iconClassName: "bg-rose-50 text-rose-500",
@@ -24,10 +24,10 @@ const trustFeatures = [
 
 export default function TrustSection() {
   return (
-    <section className="py-16 sm:py-20" dir="rtl">
+    <section className="py-16 sm:py-20">
       <SectionHeader
         subtitle="الأمان والثقة"
-        title="ناس حقيقيين بس، وبيانات محمية"
+        title="ناس حقيقيون ، وبيانات محمية"
       />
 
       <div className="container mx-auto px-5 flex flex-col gap-5 md:flex-row">

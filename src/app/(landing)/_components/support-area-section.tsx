@@ -37,7 +37,7 @@ export default function SupportAreaSection() {
           <>
             لو جاي من محافظة تانية
             <br />
-            للدراسة، سكني معمول عشانك
+            للدراسة، سكني معمول علشانك
           </>
         }
         subtitle="مين يستفيد؟"
